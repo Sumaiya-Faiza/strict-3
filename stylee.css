@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{background-color: #f6f9f9;padding: 15px 0;}
+.header_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 15px;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+nav{
+width: 50%;
+}
+nav ul{list-style: none;display: flex;justify-content: end;}
+
+nav ul li{
+
+margin-left: 50px;
+}
+nav ul li a{
+  
+text-decoration: none;
+  
+text-transform: uppercase;
+  
+color: #2d3950;
+}
+.logo img{
+
+}
+.banner{
+
+}
+.banner img{
+
+}
+.banner_content{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner_content h1{
+
+color: #fff;
+
+font-size: 80px;
+
+text-transform: uppercase;
+}
+.banner_content span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: #15a4fa;
+}
+.banner_content p{
+
+color: #fff;
+
+margin: 20px 0 40px;
+}
+.banner_content button{
+
+background: transparent;
+
+/* border: none; */
+
+border:  1px solid #15a4fa;
+
+color: #fff;
+
+text-transform: capitalize;
+
+padding: 10px 20px;
+
+border-radius: 3px;
+
+font-size: 14px;}
+.banner_content button:hover{
+  background-color: #15a4fa
+  ;
+  transition:.5s all ease-in-out
+   ;
+}
+.icon{
+  
+position: absolute;
+  
+bottom: 100px;
+  
+left: 50%;
+  
+transform: translate(-50%, 0px);
+  
+color: #fff;
+  
+font-size: 20px;
+}
+.simple{
+
+margin: auto;
+
+margin-top: 70px;
+
+margin-bottom: 70px;
+}
+.simple h2{
+
+color: #2d3950;
+
+text-align: center;
+
+padding-bottom: 30px;
+}
+.simple h5{
+
+color: #999999;
+}
+
